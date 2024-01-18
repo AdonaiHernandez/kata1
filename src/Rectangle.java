@@ -12,6 +12,10 @@ public class Rectangle {
         this.height = height;
     }
 
+    public float getArea(){
+        return height*width;
+    }
+
     @Override
     public String toString() {
         return "Rectangle{" +
